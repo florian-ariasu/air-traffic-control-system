@@ -53,11 +53,10 @@ The following classes were implemented for this project:
 - **Landing:** Priority is determined first by **urgency** (if specified) and then by the desired landing time.
 - **Occupation Time:** After a maneuver, the runway becomes unavailable for **5 minutes** for takeoffs or **10 minutes** for landings.
 
-### I/O and Windows Compatibility
+### I/O
 
 - **Reading:** Commands are read line by line from the `input.in` file.
 - **Writing:** Results are written to specific output files: `runway_info`, `flight_info`, and `board_exceptions`.
-- **Compatibility:** Implemented character replacement (replacing `:` with `-`) in `runway_info` filenames to ensure compatibility with Windows systems.
 
 ### OOP Principles
 
