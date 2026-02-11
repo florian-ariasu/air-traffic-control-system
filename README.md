@@ -26,7 +26,7 @@ The following classes were implemented for this project:
 
 - **Airplane (abstract):** The base class modeling flight characteristics such as flight ID, model, source, destination, status, and desired/actual times.
 - **WideBodyAirplane & NarrowBodyAirplane:** Subclasses extending `Airplane` to represent specific aircraft types based on dimensions.
-- **Runway (generic):** Manages takeoff and landing queues using genericity to ensure type safety.
+- **Runway (generic):** Manages takeoff and landing queues using generics to ensure type safety.
 - **Main:** The central class that interprets commands from the input file and manages the application flow.
 - **PlaneStatus (enum):** Defines possible aircraft states: `WAITING_FOR_TAKEOFF`, `DEPARTED`, `WAITING_FOR_LANDING`, and `LANDED`.
 - **IncorrectRunwayException:** A custom exception thrown when an airplane is allocated to an incompatible runway type (e.g., landing plane on a takeoff runway).
@@ -42,9 +42,9 @@ The following classes were implemented for this project:
 - **HashMap\<String, Airplane\>:** Used to store all flights (`allFlights`) for fast O(1) lookups during `flight_info` queries.
 - **LinkedHashMap\<String, Runway\<?\>\>:** Stores runways by ID, maintaining the order in which they were added while allowing O(1) access.
 
-### Classes and Genericity
+### Classes and Generics
 
-- **Genericity:** Implemented in the `Runway<T extends Airplane>` class to ensure that a runway only accepts the specific airplane type (WideBody or NarrowBody) it was configured for.
+- **Generics:** Implemented in the `Runway<T extends Airplane>` class to ensure that a runway only accepts the specific airplane type (WideBody or NarrowBody) it was configured for.
 - **Abstraction:** `Airplane` is an **abstract** class because generic airplane instances are not created directly; only concrete implementations (Wide or Narrow body) are used.
 
 ### Priority Logic
