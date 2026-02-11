@@ -81,9 +81,9 @@ The project includes a `settings.gradle` file for build configuration.
 
 > [!TIP]
 > **To run the tests:**
-> 1. Open a terminal in the project root directory.
-> 2. Execute: `./gradlew clean test` (Windows users: `gradlew.bat clean test`)
-> 3. Detailed results can be viewed at `build/reports/tests/test/index.html`
+- Open a terminal in the project root directory.
+- Execute: `./gradlew clean test` (Windows users: `gradlew.bat clean test`)
+- Detailed results can be viewed at `build/reports/tests/test/index.html`
 
 ---
 
