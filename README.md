@@ -2,20 +2,21 @@
 
 > [!IMPORTANT]
 > This is the second project assignment for the Object-Oriented Programming (OOP) course (2nd year, 1st semester).
-> This implementation was developed as a **personal re-implementation** for self-educational purposes after the official academic evaluation period.
-> The project was developed entirely with **AI guidance** to explore advanced Java patterns and optimization.
-> Successfully passing all **9 tests**.
+- This implementation was developed as a **personal re-implementation** for self-educational purposes after the official academic evaluation period.
+- The project was developed entirely with **AI-generated code** to explore advanced Java patterns and optimization.
 
 ## ⚠️ Academic Transparency & AI Disclosure
 
 This repository contains a personal study project based on a university assignment.
 
 - **Status:** This code was developed **after the academic grading period** ended. It was not submitted for university credit during the active course.
-- **AI Usage:** Developed using an AI-collaborative approach. AI was utilized for:
-  - Explaining internal mechanisms (e.g., Binary Heaps in PriorityQueue)
-  - Implementing cross-platform I/O fixes (Windows compatibility)
-  - Structuring documentation and OOP architecture
-- **Academic Integrity:** This implementation serves as a masterclass in Java Generics and Collections for my personal portfolio.
+- **AI Usage:** This implementation was **entirely AI-generated**. The development process involved:
+  - Using AI to generate complete implementations for each class
+  - Studying each class individually to understand the underlying logic and design patterns
+  - Learning Java concepts (Generics, Collections, Exception Handling) through the generated code
+  - Iteratively refining the implementation with AI assistance to fix bugs and improve structure
+- **Learning Approach:** While the code itself is AI-generated, the educational value came from analyzing and understanding each component class by class, treating the AI output as a learning resource rather than original work.
+- **Academic Integrity:** This serves as a personal portfolio project demonstrating understanding of Java OOP principles through guided AI-assisted learning.
 
 ---
 
