@@ -46,9 +46,9 @@ This repository contains a personal study project based on a university assignme
 
 ### Priority Logic
 
-- **Takeoff:** Priority is strictly chronological based on desired takeoff time.
-- **Landing:** Priority is determined first by urgency (if specified), then by desired landing time.
-- **Occupation Time:** Runway becomes unavailable for 5 minutes after a takeoff or 10 minutes after a landing.
+- **Takeoff:** Priority is strictly chronological based on desired takeoff time
+- **Landing:** Priority is determined first by urgency (if specified), then by desired landing time
+- **Occupation Time:** Runway becomes unavailable for 5 minutes after a takeoff or 10 minutes after a landing
 
 ### I/O
 
